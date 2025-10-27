@@ -36,6 +36,6 @@ const userSchema = new mongoose.Schema({
 })
 
 
-const createUserRegistationSchema = mongoose.model('Users',userSchema)
+const createUserRegistationSchema = mongoose.model('RedditUsers',userSchema)
 
 module.exports = createUserRegistationSchema;
